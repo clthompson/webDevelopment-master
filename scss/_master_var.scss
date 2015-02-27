@@ -16,7 +16,7 @@
 // Grid
   $row-width: rem-calc(1080); //BCF was 1040
   $total-columns: 12;
-  $column-gutter: rem-calc(5);
+  $column-gutter: rem-calc(0);
 
 // Media Queries from Foundation
   $small-range: (0em, 40em); // (0em, 40em); (0-640px)
