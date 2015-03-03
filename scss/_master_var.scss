@@ -8,20 +8,25 @@
 //
 
 // Screens/Breakpoints
-  $Five00: "screen and (max-width: 500px)"; //phone portrait
-  $Phone: "screen and (max-width: 767px)"; //phone landscape
-  $iPadPortrait: "screen and (max-width: 849px) and (min-width: 768px)"; //iPad portrait
-  $Desktop: "screen and (min-width: 850px)"; // iPad landscape and all Desktop
+  $Five00: "screen and (max-width: 499px)"; // phone portrait
+  $Phone: "screen and  (max-width: 767px) "; // phone landscape (min-width: 500px) and
+  $iPadPortrait: "screen  and (max-width: 849px)"; // iPad portrait and (min-width: 768px)
+  $Desktop: "screen and (min-width: 850px) and (max-width: 849px)"; // iPad landscape and all Desktop
+
+  $Small: "screen and (max-width: 640px)"; // Foundation Small
+  $Medium: "screen and  (max-width: 848px)"; // Foundation Medium   (min-width: 640px) and
+  $large: "screen and (min-width: 849px) and (max-width: 1440px)"; // Foundation Large
+  $xLarge: "screen and (min-width: 1441px)";
 
 // Grid
   $row-width: rem-calc(1080); //BCF was 1040
   $total-columns: 12;
   $column-gutter: rem-calc(0);
 
-// Media Queries from Foundation
+// Media Queries from Foundation - multiply by 16
   $small-range: (0em, 40em); // (0em, 40em); (0-640px)
-  $medium-range: (40.063em, 64em); // (40.063em, 64em); (641-1024px)
-  $large-range: (64.063em, 90em); // (64.063em, 90em); (1025-1440px)
+  $medium-range: (40.063em, 53em); // (40.063em, 64em); (641-1024px)
+  $large-range: (53.063em, 90em); // (64.063em, 90em); (1025-1440px)
   $xlarge-range: (90.063em, 120em); // (90.063em, 120em); (1441-1920)
   $xxlarge-range: (120.063em, 99999999em); // (120.063em, 99999999em); (1920-infinity)
 

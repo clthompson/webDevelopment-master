@@ -27,7 +27,7 @@
 			"file": "scss/_master_var.scss",
 			"settings":
 			{
-				"buffer_size": 946,
+				"buffer_size": 1302,
 				"line_ending": "Windows"
 			}
 		},
@@ -253,8 +253,8 @@
 						"selection":
 						[
 							[
-								88,
-								109
+								1719,
+								1740
 							]
 						],
 						"settings":
@@ -274,15 +274,15 @@
 					"file": "scss/_master_var.scss",
 					"settings":
 					{
-						"buffer_size": 946,
+						"buffer_size": 1302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								516,
-								516
+								361,
+								361
 							]
 						],
 						"settings":
@@ -344,7 +344,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 1485.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
