@@ -19,7 +19,7 @@
 			"file": "scss/_master_css.scss",
 			"settings":
 			{
-				"buffer_size": 5084,
+				"buffer_size": 5090,
 				"line_ending": "Windows"
 			}
 		},
@@ -238,7 +238,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -246,15 +246,15 @@
 					"file": "scss/_master_css.scss",
 					"settings":
 					{
-						"buffer_size": 5084,
+						"buffer_size": 5090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1719,
-								1740
+								351,
+								236
 							]
 						],
 						"settings":
