@@ -16,6 +16,7 @@
 //    @include vendor-prefix(name, argument);
 //    @include vendor-prefix(background-color, #000);
 //  }
+
 @mixin vendor-prefix($name, $argument) {
   -webkit-#{$name}: #{$argument};
   -ms-#{$name}: #{$argument};
@@ -62,13 +63,23 @@
   $small-font-size: 100%;
 
   // Typical Paragraphs
-  $paragraph-font-size: 1rem; // $paragraph-font-size: 1rem; (16px)  0.9375rem
+  $paragraph-font-size: 1rem; // $paragraph-font-size: 1rem; (16px) 15 = 0.9375rem
 
-  // Colors
+// Colors
   $color-maroon: #7c2142;
   $color-black: #000;
   $color-white: #fff;
   $color-gray: #222; // starting additional colors
+
+// In-page anchor tags - hidden <span> above sections
+.anchor {
+  position: relative;
+  display: block;
+  top: -50px; // depends on the depth of the header. add for deeper...
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
 
 // Article Styles
 article {

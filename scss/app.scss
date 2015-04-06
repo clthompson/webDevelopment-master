@@ -1,9 +1,9 @@
 @import "master_var";
 
 @import "settings";
-@import "foundation";
+// @import "foundation"; // this loads all 
 
-// Or selectively include components
+// Or selectively include components. Projects should use their own main SCSS file to load all Foundation features.
 // @import
 //   "foundation/components/accordion",
 //   "foundation/components/alert-boxes",

@@ -16,18 +16,18 @@
 	"buffers":
 	[
 		{
-			"file": "scss/_master_css.scss",
+			"file": "scss/_master_var.scss",
 			"settings":
 			{
-				"buffer_size": 5090,
+				"buffer_size": 1270,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scss/_master_var.scss",
+			"file": "scss/_master_css.scss",
 			"settings":
 			{
-				"buffer_size": 1302,
+				"buffer_size": 5318,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "scss/app.scss",
 			"settings":
 			{
-				"buffer_size": 1670,
+				"buffer_size": 1771,
 				"line_ending": "Windows"
 			}
 		},
@@ -44,6 +44,14 @@
 			"settings":
 			{
 				"buffer_size": 50163,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6078,
 				"line_ending": "Windows"
 			}
 		}
@@ -116,8 +124,8 @@
 	},
 	"file_history":
 	[
-		"/Z/Public/webDevelopment/master/scss/_custom.scss",
 		"/Z/Public/webDevelopment/master/css/app.css",
+		"/Z/Public/webDevelopment/master/scss/_custom.scss",
 		"/Z/Public/webDevelopment/master/config.rb",
 		"/Z/Public/webDevelopment/master/bower_components/foundation/scss/foundation/_settings.scss",
 		"/J/Training/CSS with LESS and Sass/Exercise Files/ExampleSnippets.txt",
@@ -212,6 +220,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"web/js/",
 			"$small-screen",
 			"1500px",
 			"<p>",
@@ -223,11 +232,12 @@
 			"co"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"web/js/foundation/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -238,23 +248,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "scss/_master_css.scss",
+					"file": "scss/_master_var.scss",
 					"settings":
 					{
-						"buffer_size": 5090,
+						"buffer_size": 1270,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								351,
-								236
+								919,
+								919
 							]
 						],
 						"settings":
@@ -271,18 +281,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "scss/_master_var.scss",
+					"file": "scss/_master_css.scss",
 					"settings":
 					{
-						"buffer_size": 1302,
+						"buffer_size": 5318,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								752,
-								752
+								352,
+								352
 							]
 						],
 						"settings":
@@ -292,7 +302,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2070.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -302,15 +312,15 @@
 					"file": "scss/app.scss",
 					"settings":
 					{
-						"buffer_size": 1670,
+						"buffer_size": 1771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								23,
-								23
+								202,
+								202
 							]
 						],
 						"settings":
@@ -344,7 +354,35 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1485.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1126,
+								1126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
